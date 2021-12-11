@@ -69,9 +69,9 @@ function ketQua() {
     }
     var diemTong = num1 + num2 + num3 + diemKhuVuc + diemDoiTuong;
     if(diemTong < diemChuan || num1 == 0 || num2 == 0 || num3 == 0) {
-        document.getElementById("txt__result").innerHTML = "Tổng điểm của bạn là " +diemTong+ "." +" Bạn đã thi trượt. Chúc bạn may mắn lần sau."
+        document.getElementById("txt__result").innerHTML = "Tổng điểm: " +diemTong+ ". Bạn đã thi trượt. Chúc bạn may mắn lần sau."
     } else {
-        document.getElementById("txt__result").innerHTML = "Tổng điểm của bạn là " +diemTong+ "." +" Chúc mừng bạn đã thi đỗ vào trường."
+        document.getElementById("txt__result").innerHTML = "Tổng điểm: " +diemTong+ ". Chúc mừng bạn đã thi đỗ vào trường."
     }
 }
 
